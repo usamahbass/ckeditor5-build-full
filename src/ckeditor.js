@@ -116,6 +116,9 @@ FullEditor.builtinPlugins = [
 FullEditor.defaultConfig = {
   toolbar: {
     items: [
+      '|',
+      'undo',
+      'redo',
       'removeFormat',
       '|',
       'heading',
@@ -152,10 +155,7 @@ FullEditor.defaultConfig = {
       'horizontalLine',
       'pageBreak',
       '|',
-      'restrictedEditingException',
-      '|',
-      'undo',
-      'redo'
+      'restrictedEditingException'
     ]
   },
   blockToolbar: [
@@ -172,7 +172,10 @@ FullEditor.defaultConfig = {
     'imageUpload'
   ],
   fontSize: {
-    options: [8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28]
+    options: [
+      8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 39,
+      40, 42, 44, 46, 48, 50, 62, 64, 66, 68, 70, 72
+    ]
   },
   image: {
     toolbar: [

@@ -6,7 +6,7 @@
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 
-import ImageRemoveEventCallbackPlugin from 'ckeditor5-image-remove-event-callback-plugin';
+// import ImageRemoveEventCallbackPlugin from 'ckeditor5-image-remove-event-callback-plugin';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials'
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter'
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat'
@@ -14,13 +14,13 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold'
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic'
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote'
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder'
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage'
+// import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage'
 import Heading from '@ckeditor/ckeditor5-heading/src/heading'
-import Image from '@ckeditor/ckeditor5-image/src/image'
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption'
-import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle'
-import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar'
-import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload'
+// import Image from '@ckeditor/ckeditor5-image/src/image'
+// import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption'
+// import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle'
+// import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar'
+// import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload'
 import Indent from '@ckeditor/ckeditor5-indent/src/indent'
 import Link from '@ckeditor/ckeditor5-link/src/link'
 import List from '@ckeditor/ckeditor5-list/src/list'
@@ -51,8 +51,8 @@ import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock'
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters'
 import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials'
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount'
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize'
-import ImageTextAlternative from '@ckeditor/ckeditor5-image/src/imagetextalternative'
+// import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize'
+// import ImageTextAlternative from '@ckeditor/ckeditor5-image/src/imagetextalternative'
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter'
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties'
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties'
@@ -70,14 +70,14 @@ FullEditor.builtinPlugins = [
   Italic,
   BlockQuote,
   CKFinder,
-  EasyImage,
+//   EasyImage,
   Heading,
-  Image,
-  ImageCaption,
-  ImageStyle,
-  ImageToolbar,
-  ImageUpload,
-  ImageRemoveEventCallbackPlugin,
+//   Image,
+//   ImageCaption,
+//   ImageStyle,
+//   ImageToolbar,
+//   ImageUpload,
+//   ImageRemoveEventCallbackPlugin,
   Indent,
   Link,
   List,
@@ -106,8 +106,8 @@ FullEditor.builtinPlugins = [
   SpecialCharacters,
   SpecialCharactersEssentials,
   WordCount,
-  ImageResize,
-  ImageTextAlternative,
+//   ImageResize,
+//   ImageTextAlternative,
   SimpleUploadAdapter,
   TableProperties,
   TableCellProperties,
@@ -148,7 +148,7 @@ FullEditor.defaultConfig = {
       'link',
       'insertTable',
       'specialCharacters',
-      'imageUpload',
+//       'imageUpload',
       'mediaEmbed',
       'htmlEmbed',
       '|',
@@ -171,7 +171,7 @@ FullEditor.defaultConfig = {
     'numberedList',
     '|',
     'blockQuote',
-    'imageUpload'
+//     'imageUpload'
   ],
   fontSize: {
     options: [
@@ -179,16 +179,16 @@ FullEditor.defaultConfig = {
       40, 42, 44, 46, 48, 50, 62, 64, 66, 68, 70, 72
     ]
   },
-  image: {
-    toolbar: [
-      'imageStyle:alignLeft',
-      'imageStyle:full',
-      'imageStyle:alignRight',
-      '|',
-      'imageTextAlternative'
-    ],
-    styles: ['full', 'side', 'alignLeft', 'alignCenter', 'alignRight']
-  },
+//   image: {
+//     toolbar: [
+//       'imageStyle:alignLeft',
+//       'imageStyle:full',
+//       'imageStyle:alignRight',
+//       '|',
+//       'imageTextAlternative'
+//     ],
+//     styles: ['full', 'side', 'alignLeft', 'alignCenter', 'alignRight']
+//   },
   table: {
     contentToolbar: [
       'tableColumn',
